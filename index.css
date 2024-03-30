@@ -1,0 +1,61 @@
+
+hr.styl1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(204, 203, 162, 0), rgb(0, 0, 0), rgba(255, 255, 255, 0));
+	width: 90%;
+}
+
+.ul-navbar{
+    border-style: none;
+	color: rgb(0, 0, 0);
+	font-family: Verdana, Tahoma, Arial, Helvetica, Serif;
+	font-size: 25pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+    height: 10px;
+    
+}
+
+.li-navbar {
+    border-style: none;
+	color: rgb(0, 0, 0);
+	font-family: Verdana, Tahoma, Arial, Helvetica, Serif;
+	font-size: 25pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+    
+   
+}
+.n {
+	border-style: none;
+	color: #000000;
+	font-family: Verdana, Tahoma, Arial, Helvetica, Serif;
+	font-size: 25pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.nb {
+	color: #000000;
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 7pt;
+	font-weight: lighter;
+	text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+    
+}
+.w {
+	background-color: transparent;
+	color: #000000;
+	font-family: Verdana, Tahoma, Arial, Helvetica, Serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}

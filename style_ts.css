@@ -1,0 +1,546 @@
+.frames {
+    background-image: url('frames.png');
+    line-height: 52px;
+    font-size: 35px;
+    width: 44px;
+    height: 54px;
+    FONT-FAMILY: ledboard, Verdana, Tahoma, Arial, Helvetica;
+    color: #FFF;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+}
+
+.points {
+    FONT-SIZE: 42px;
+    COLOR: #E3E284;
+    FONT-FAMILY: ledboard, Verdana, Tahoma, Arial, Helvetica;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    background-image: url('score.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: #221F1F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+    border-top: 1px solid #676767;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.players {
+    FONT-SIZE: 15px;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    vertical-align: middle;
+    font-weight: bold;
+    background-image: url('score.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: #221F1F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+    border-top: 1px solid #676767;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.bila {
+    FONT-SIZE: 15px;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    background-image: url('zoom_1.jpg');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: #221F1F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+    border-top: 1px solid #676767;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.bo {
+    background-image: url('zoom_1.jpg');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: #221F1F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+    border-top: 1px solid #676767;
+    padding: 5px;
+    margin-bottom: 5px;
+    FONT-SIZE: 18px;
+    font-weight: bold;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    vertical-align: middle;
+    font-weight: lighter
+}
+
+.brejk {
+    background-image: url('zoom_1.jpg');
+    background-position: center;
+    background-color: #221F1F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+    border-top: 1px solid #676767;
+    padding: 5px;
+    margin-bottom: 5px;
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: lighter;
+}
+
+.brejk2 {
+    background-image: url('zoom_1.jpg');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: #221F1F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #221F1F;
+    border-top: 1px solid #676767;
+    padding: 5px;
+    margin-bottom: 5px;
+    FONT-SIZE: 10pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: bold;
+}
+
+.pokaz1 {
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    font-weight: lighter;
+    vertical-align: middle;
+    TEXT-ALIGN: left;
+}
+
+.pokaz {
+    FONT-SIZE: 7pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    font-weight: lighter;
+    TEXT-ALIGN: center;
+    vertical-align: middle;
+}
+
+.pokaz2 {
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    font-weight: lighter;
+    TEXT-ALIGN: right;
+    vertical-align: middle;
+}
+
+TD {
+    FONT-SIZE: 9pt;
+    COLOR: #000080;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: justify;
+    empty-cells: show
+}
+
+.as {
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    border-style: none;
+    vertical-align: text-bottom;
+    empty-cells: show
+}
+
+.s {
+    FONT-SIZE: 8pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: right;
+    border-style: none;
+    vertical-align: text-bottom;
+    empty-cells: show
+}
+
+.s1 {
+    FONT-SIZE: 8pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    border-style: none;
+    vertical-align: text-bottom;
+    empty-cells: show
+}
+
+.s10 {
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    vertical-align: text-bottom;
+    font-weight: bold;
+    color: #ffffff;
+    empty-cells: show
+}
+
+.s1LR {
+    FONT-SIZE: 8pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    border-bottom-color: #E3E284;
+    border-top-color: #E3E284;
+    BORDER-TOP: #E3E284 1px solid;
+    vertical-align: text-bottom;
+    empty-cells: show
+}
+
+.nr {
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: right;
+    border-style: none;
+    font-weight: lighter
+}
+
+.nrl {
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    border-style: none;
+    font-weight: lighter
+}
+
+.nn {
+    FONT-SIZE: 7pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    font-weight: lighter
+}
+
+.nb {
+    FONT-SIZE: 7pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: bold
+}
+
+.nl {
+    FONT-SIZE: 7pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    font-weight: lighter
+}
+
+.nrr {
+    FONT-SIZE: 8pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: bold
+}
+
+.nrz {
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: right;
+    border-style: none;
+    font-weight: lighter;
+    color: green
+}
+
+.nrc {
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    border-style: none;
+    font-weight: lighter;
+    color: red
+}
+
+.nrcLR {
+    FONT-SIZE: 7pt;
+    COLOR: #000080;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    BORDER-TOP: #E3E284 1px solid;
+    BORDER-BOTTOM: #E3E284 1px solid;
+    font-weight: lighter;
+    color: red
+}
+
+.nrn {
+    FONT-SIZE: 7pt;
+    COLOR: #000080;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: right;
+    border-style: none;
+    font-weight: lighter;
+    color: blue
+}
+
+.w {
+    FONT-SIZE: 10pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: bold;
+    background-color: #3DA09C
+}
+
+.wb {
+    FONT-SIZE: 10pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: bold;
+}
+
+.wl {
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    font-weight: bold
+}
+
+.w7 {
+    FONT-SIZE: 7pt;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    font-weight: bold;
+    background-color: #006000
+}
+
+.z {
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left
+}
+
+.d {
+    FONT-SIZE: 7pt;
+    COLOR: #000080;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    border-style: none;
+    vertical-align: text-top
+}
+
+.n {
+    FONT-SIZE: 13pt;
+    COLOR: #E1E9DB;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    border-style: none;
+    font-weight: bold
+}
+
+.nc {
+    FONT-SIZE: 13pt;
+    COLOR: #000080;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    border-style: none;
+    font-weight: bold;
+    color: green
+}
+
+.f {
+    FONT-SIZE: 7pt;
+    COLOR: #000080;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    border-style: none;
+    font-weight: bold;
+    vertical-align: text-top
+}
+
+.TDr {
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: right;
+    empty-cells: show
+}
+
+.TDl {
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: left;
+    empty-cells: show
+}
+
+.TDc {
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-ALIGN: center;
+    empty-cells: show
+}
+
+A:link {
+    FONT-WEIGHT: bold;
+    COLOR: #E3E284;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+A:hover {
+    FONT-WEIGHT: bold;
+    COLOR: silver;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+A:visited {
+    FONT-WEIGHT: bold;
+    COLOR: #E0E284;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+.nglowek {
+    BORDER-RIGHT: #343d5d 1px solid;
+    BORDER-TOP: #343d5d 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #343d5d 1px solid;
+    COLOR: #343d5d;
+    BORDER-BOTTOM: #343d5d 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bdd7f9;
+    TEXT-ALIGN: center
+}
+
+.podtytul {
+    BORDER-TOP: #343d5d 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    MARGIN-BOTTOM: 8px;
+    TEXT-ALIGN: justify
+}
+
+.text {
+    MARGIN-TOP: 1px;
+    FONT-SIZE: 9pt;
+    MARGIN-BOTTOM: 4px;
+    TEXT-ALIGN: justify
+}
+
+.text_normal {
+    MARGIN-TOP: 1px;
+    FONT-SIZE: 9pt;
+    MARGIN-BOTTOM: 1px;
+    TEXT-ALIGN: justify
+}
+
+.nazwiska {
+    MARGIN-TOP: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    MARGIN-BOTTOM: 1px;
+    TEXT-ALIGN: justify
+}
+
+.wyroznik {
+    MARGIN-TOP: 8px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 5px;
+    COLOR: #000000;
+    TEXT-ALIGN: left
+}
+
+INPUT.pn-button {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    BORDER-TOP-STYLE: ridge;
+    TEXT-INDENT: 2px;
+    FONT-FAMILY: Tahoma, Verdana, sans-serif;
+    BORDER-RIGHT-STYLE: ridge;
+    BORDER-LEFT-STYLE: ridge;
+    BACKGROUND-COLOR: #599ae8;
+    BORDER-BOTTOM-STYLE: ridge
+}
+
+INPUT.pn-text {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 13px;
+    COLOR: #343d5d;
+    BORDER-TOP-STYLE: inset;
+    TEXT-INDENT: 2px;
+    FONT-FAMILY: Tahoma, Verdana, sans-serif;
+    BORDER-RIGHT-STYLE: inset;
+    BORDER-LEFT-STYLE: inset;
+    BACKGROUND-COLOR: #d0e2f8;
+    BORDER-BOTTOM-STYLE: inset
+}
+
+INPUT.pn-button2 {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    BORDER-TOP-STYLE: ridge;
+    TEXT-INDENT: 2px;
+    FONT-FAMILY: Tahoma, Verdana, sans-serif;
+    BORDER-RIGHT-STYLE: ridge;
+    BORDER-LEFT-STYLE: ridge;
+    BACKGROUND-COLOR: #cc0000;
+    BORDER-BOTTOM-STYLE: ridge
+}
+
+INPUT.pn-text2 {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 13px;
+    COLOR: #343d5d;
+    BORDER-TOP-STYLE: inset;
+    TEXT-INDENT: 2px;
+    FONT-FAMILY: Tahoma, Verdana, sans-serif;
+    BORDER-RIGHT-STYLE: inset;
+    BORDER-LEFT-STYLE: inset;
+    BACKGROUND-COLOR: #d0e2f8;
+    BORDER-BOTTOM-STYLE: inset
+}
